@@ -1,4 +1,9 @@
-﻿class Program
+﻿using System.Threading;
+using System.Text;
+using System.Linq;
+using System.Collections.Generic;
+
+class Program
 {
   private static readonly int TotalJumps = 15;
   private static readonly int TotalFrogs = 7;
